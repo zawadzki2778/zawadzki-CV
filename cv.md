@@ -18,3 +18,34 @@ In the near future I want to become frontend  developer.
 * HTML, CSS, JS Basics
 * VS Code, Git/GitHub
 ***
+
+## _CODE EXAMPLE_
+```
+function sum(a, b) {
+  return a + b;
+}
+let result = sum(1, 2);
+alert( result );
+```
+***
+
+## _EXPERIENCE_
+
+not yet... but I'm working on it ))
+***
+
+## _EDUCATION_ 
+
+* Vitebsk State Technological College 
+    + industrial and civil building
+* Vitebsk State Technological University
+    + economics and enterprise management
+* UDEMY courses 
+    + HTML, CSS, JS Basics
+***
+
+## _LANGUAGES_
+
+* RUSSIAN - naitive
+* ENGLISH - A2+ 
+* POLISH - B1
