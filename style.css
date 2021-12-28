@@ -1,3 +1,13 @@
-.title {
-    font-weight: bold;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color:#324570;
 }
