@@ -11,3 +11,166 @@ html {
 body {
     background-color:#324570;
 }
+
+.CV {
+    border: black solid 1px;
+    min-height: auto;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    min-height: auto;
+    width: 1024px;
+    margin: 0 auto;
+    background-color:rgb(219, 250, 241);
+}
+
+.section_left {
+    width: 35%;
+    text-align: center;
+    background-color: rgb(62, 133, 161);  
+}
+
+.section_right {
+    width: 65%;
+    text-align: center;
+}
+
+header {
+    padding: 5px 0;
+}
+
+.photo .my_photo {
+    display: block;
+    width: 100%;
+}
+
+nav {
+    margin-top: 15px; 
+}
+
+.menu {
+    display: flex;
+    font-weight: 500;
+    color: #324570;
+    justify-content: space-around;
+    list-style-type: none; 
+}
+
+header {
+    margin-top: 15px; 
+    background-color: rgb(104, 172, 199);  
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 46px;
+    color:#0e204b;
+}
+
+.limiter {
+    padding: 0 30px 30px 15px;
+}
+
+.profession {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.education, .experience, .code_title{
+    margin-top: 35px;
+    text-align: left;
+    padding-left: 20px;
+    font-weight:600;
+}
+
+.course, .university, .college, .lacit, .tekhnika, .VZEP {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.data_course, .data_university, .data_college, .data_lacit, .data_tekhnika, .data_VZEP {
+    font-weight: 600;
+    font-size: 20px;
+    color:#324570;
+}
+
+.name_course, .name_university, .name_college, .name_lacit, .name_tekhnika, .name_VZEP {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.contact_list, .skills_list { 
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.languages_list {
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    list-style-type: none; 
+}
+
+.contact_title, .skills_title, .languages_title {
+    margin-top: 20.5px;
+    text-align: left;
+    padding-left: 20px;
+    font-weight:600;
+}
+
+.phone, .email, .telegram, .skype, .github, .html, .css, .js, .sass, .jquery, .github1, .figma, .russian, .english, .polish {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all .4s linear;
+}
+
+.my_phone_link, .my_email_link, .my_telegram_link, .my_skype_link, .my_github_link, .my_html, .my_css, .my_js, .my_sass, .my_jquery, .my_github1, .my_figma, .my_russian, .my_english, .my_polish {
+    margin-left: 10px;
+    margin-top: 8px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all .4s linear;
+}
+
+a:hover {
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    min-height: auto;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 5px 0;
+    background-color: #2b3b5a;
+}
+
+.info {
+    display: flex;
+}
+
+.github_link, .rsschol_link {
+    display: flex;
+    align-items: center;
+}
+
+.github_footer, .year, .rsschool {
+    padding: 10px;
+    align-items: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
