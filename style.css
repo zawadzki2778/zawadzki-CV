@@ -1,3 +1,17 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+* {
+box-sizing: border-box;
+background-color: rgb(12, 1, 1);
+}
+
+.nav {
+    margin-left: auto;
+}
+
 .container {
     min-width: 1440px;
     margin: 0 auto;
