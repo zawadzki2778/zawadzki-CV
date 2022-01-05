@@ -15,7 +15,7 @@ padding: 0;
     background-position: center 0;
 }
 
-.container {
+.header-container {
     display: flex;
     width: 1440px;
     height: 910px;
@@ -87,3 +87,16 @@ padding: 0;
     text-align: center;
     color: #ffffff;
 }
+/* .section-hero {
+    position: relative;
+    
+} */
+.hero-container {
+    position: absolute;
+    top:0;
+    width: 500px;
+    height: 330px;
+    margin-top: 445px;
+    margin-left: 81px;
+}
+
