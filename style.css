@@ -9,21 +9,25 @@ margin: 0;
 padding: 0;
 }
 
+.layout {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .header {
     background: url('./assets/img/header-bg.jpg');
-    width: 1440px;
+    max-width: 1440px;
     height: 910px;
     margin: 0 auto;
+    padding: 0 20px;
     background-repeat: no-repeat;
     background-position: center 0;
     /* background-size: cover; */
 }
 
-.header-container {
+.header-menu {
     display: flex;
-    /* max-width: 1440px; */
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .logo {
@@ -136,4 +140,122 @@ h1 {
     letter-spacing: 0em;
     text-align: center;
 }
+                                                /* НОВАЯ СЕКЦИЯ */
+
+/* .main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}*/
+                                            
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color:#000;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+.skills {
+    height: 498px;
+    width: 100%;
+    left: 0px;
+    top: 922px;
+    margin: 0 auto;
+    padding-top: 100px;
+    border-radius: 0px;
+    background-color:#000;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+.skills-title {
+    margin: 0 auto;
+    height: 80px;
+    width: 700px;
+    left: 370px;
+    border-radius: 0px;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+
+}
+
+.skills-title-box {
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #bdae82;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.skills-title-h2 {
+    margin: 0 auto;
+    height: 80px;
+    width: 152px;
+    left: 0px;
+    top: 0px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 0px;
+    background: #000;    
+}
+
+.skills-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 242px;
+    width: 1400px;
+    left: 20px;
+    top: 240px;
+    margin-top: 60px;
+    text-align: center;
+    border-radius: 0px;
+
+}
+
+.skills-item {
+    height: 240px;
+    width: 320px;   
+    text-align: center;
+}
+    
+
+.skills-item-name {
+    height: 40px;
+    /* width: 280px; */ /*было в макете*/
+    left: 20px;
+    top: 100px;
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.skills-item-descr {
+    height: 72px;
+    /* width: 280px; */ /*было в макете*/
+    left: 20px;
+    top: 160px;
+    margin-top: 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
 
