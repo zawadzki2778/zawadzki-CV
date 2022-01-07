@@ -261,7 +261,7 @@ h1 {
 /*                              НОВАЯ СЕКЦИЯ PORTFOLIO */
 
 .portfolio-title{
-    margin: 0 auto;
+    margin: 100px auto auto auto;
     height: 80px;
     width: 700px;
     left: 370px;
@@ -281,9 +281,10 @@ h1 {
 .portfolio-title-h2 {
     margin: 0 auto;
     height: 80px;
-    width: 152px;
+    width: 232px;
     left: 0px;
     top: 0px;
+    border-radius: 0px;
     font-family: Merriweather;
     font-size: 40px;
     font-style: normal;
@@ -292,3 +293,199 @@ h1 {
     background: #000;
 }
 
+.portfolio-btns {
+    /* display: flex;
+    justify-content: center; */
+padding: 0 253px;
+margin-top: 46px;
+}
+
+.btn {
+    margin: 0 auto;
+    height: 55px;
+    width: 220px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #BDAE82;
+    border-width: 2px;
+    border-color: #BDAE82;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #000;
+}
+
+.btn-Autumn {
+    margin: 0 auto;
+    height: 55px;
+    width: 220px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #000;
+    border-width: 2px;
+    border-color: #BDAE82;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #BDAE82;
+}
+
+.portfolio-items {
+    margin-top: 74px;
+    height: 1145px;
+    width: 1400px;
+    text-align: center;
+    border-radius: 0px;
+
+}
+
+.video-title {
+    margin: 0 auto;
+    height: 80px;
+    width: 700px;
+    left: 370px;
+    border-radius: 0px;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+
+}
+
+.video-title-box {
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #bdae82;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.video-title-h2 {
+    margin: 0 auto;
+    height: 80px;
+    width: 152px;
+    left: 0px;
+    top: 0px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 0px;
+    background: #000;    
+}
+/*                      НОВАЯ СЕКЦИЯ PRICE              */
+
+.price-title {
+    margin: 0 auto;
+    height: 80px;
+    width: 700px;
+    left: 370px;
+    border-radius: 0px;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+
+}
+
+.price-title-box {
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #bdae82;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.price-title-h2 {
+    margin: 0 auto;
+    height: 80px;
+    width: 152px;
+    left: 0px;
+    top: 0px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 0px;
+    background: #000;    
+}
+
+.price-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.price-item {
+    height: 505px;
+    width: 450px;
+    left: 20px;
+    top: 240px;
+    border-radius: 0px;
+}
+
+.price-item-name {
+    height: 56px;
+    width: 122px;
+    left: 164px;
+    top: 43px;
+    border-radius: nullpx;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price-item-price {
+    height: 48px;
+    width: 69px;
+    left: 191px;
+    top: 119px;
+    border-radius: nullpx;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #BDAE82;
+}
+
+.price-item-descr {
+    height: 180px;
+    width: 364px;
+    left: 43.328125px;
+    top: 187px;
+    border-radius: 0px;
+
+}
+
+.btn {
+    height: 55px;
+    width: 219.99996948242188px;
+    left: 115px;
+    top: 407px;
+    border-radius: 0px;
+    height: 40px;
+    width: 142px;
+    left: 39px;
+    top: 8px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color:#BDAE82;
+    color: #000000;
+
+
+
+}
