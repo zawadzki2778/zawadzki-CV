@@ -336,23 +336,36 @@ margin-top: 46px;
 }
 
 .portfolio-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;/*перенос 3х фото на новую строку*/
+    gap: 25px 25px;/*интервалы по верт/гориз между фото*/
+    align-items: center;
     margin-top: 74px;
     height: 1145px;
     width: 1400px;
     text-align: center;
     border-radius: 0px;
+}
+
+.photo {
+    height: 560px;
+    width: 450px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    text-align: center;
 
 }
-                                             /* НОВАЯ СЕКЦИЯ VIDEO*/
+                                /* НОВАЯ СЕКЦИЯ V I D E O*/
 
 .video-title {
-    margin: 0 auto;
+    margin: 100px auto 60px auto;
     height: 80px;
     width: 700px;
     left: 370px;
     border-radius: 0px;
     background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
-
 }
 
 .video-title-box {
@@ -377,7 +390,23 @@ margin-top: 46px;
     border-radius: 0px;
     background: #000;    
 }
-/*                      НОВАЯ СЕКЦИЯ PRICE              */
+
+.video-player {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-player {
+    position: absolute;
+    color: #FFFFFF;
+
+
+
+}
+
+/*                      НОВАЯ СЕКЦИЯ P R I C E              */
 
 .price-title {
     margin: 0 auto;
@@ -464,7 +493,6 @@ margin-top: 46px;
     left: 43.328125px;
     top: 187px;
     border-radius: 0px;
-
 }
 
 .btn {
@@ -487,7 +515,4 @@ margin-top: 46px;
     text-align: center;
     background-color:#BDAE82;
     color: #000000;
-
-
-
 }
