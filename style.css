@@ -656,4 +656,50 @@ textarea {
     background: #bdae82;
     color: #000;
 }
+/*                                      СЕКЦИЯ F O O T E R    */ 
+.footer {
+    height: 150px;
+    width: 1440px;
+    top: 5382px;
+    background-color: #000;
+    
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 1440px;
+    align-items: center;
+    text-align: center;
+}
+
+.year2022 {
+    display: flex;
+    justify-content: space-between;
+    width: 182px;
+    margin: 50px 0 50px 20px;
+}
+
+.rss {
+    width: 211px;
+    margin: 50px 0 50px 0;
+}
+
+.social { 
+    display: flex;
+    justify-content: space-between;
+    width: 188px;
+    margin: 50px 20px 50px 0;
+}
+
+.rss-link {
+    font-family: Inter;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    text-decoration: none;
+}
