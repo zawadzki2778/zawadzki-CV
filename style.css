@@ -1,0 +1,707 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.layout {
+    width: 1440px;
+    min-height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('./assets/img/header-bg.jpg');
+    max-width: 1440px;
+    height: 910px;
+    margin: 0 auto;
+    padding: 0 20px; /* убрать/заменить padding 20px*/
+    background-repeat: no-repeat;
+    background-position: center 0;
+    /* background-size: cover; */
+}
+
+.header-menu {
+    display: flex;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%)
+}
+
+.nav {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 0 15px;  
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.switch-lang {
+    display: flex;
+    padding-left: 16px;
+    font-family: Inter;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.en, .slash {
+    padding-right: 9px;
+}
+
+.switch-link {
+    font-family: Inter;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.section-hero {
+    width: 500px;
+    height: 330px;
+    margin-top: 182.333px;
+    margin-left: 81px;
+}
+
+h1 {
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#fff;
+}
+
+.about-Alexa {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#fff;
+}
+
+.button-hero {
+    margin-top: 25px;
+    height: 55px;
+    width: 220px;
+    left: 0px;
+    top: 275px;
+    border-radius: 0px;
+    background: #BDAE82;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+                                                /* НОВАЯ СЕКЦИЯ SKILLS*/
+
+/* .main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}*/
+                                            
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color:#000;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+.skills {
+    height: 498px;
+    width: 100%;
+    left: 0px;
+    top: 922px;
+    margin: 0 auto;
+    padding-top: 100px;
+    border-radius: 0px;
+    background-color:#000;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+.skills-title {
+    margin: 0 auto;
+    height: 80px;
+    width: 700px;
+    left: 370px;
+    border-radius: 0px;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+
+}
+
+.skills-title-box {
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #bdae82;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.skills-title-h2 {
+    margin: 0 auto;
+    height: 80px;
+    width: 152px;
+    left: 0px;
+    top: 0px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 0px;
+    background: #000;    
+}
+
+.skills-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 242px;
+    width: 1400px;
+    left: 20px;
+    top: 240px;
+    margin-top: 60px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.skills-item {
+    height: 240px;
+    width: 320px;   
+    text-align: center;
+}
+    
+
+.skills-item-name {
+    height: 40px;
+    /* width: 280px; */ /*было в макете*/
+    left: 20px;
+    top: 100px;
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.skills-item-descr {
+    height: 72px;
+    /* width: 280px; */ /*было в макете*/
+    left: 20px;
+    top: 160px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+/*                              НОВАЯ СЕКЦИЯ PORTFOLIO                    */
+.portfolio {
+    height: 1472px;
+    width: 100%;
+    left: 0px;
+    top: 1420px;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: -20px;
+    border-radius: 0px;
+}
+
+.portfolio-title {
+    margin: 0 auto;
+    height: 80px;
+    width: 700.5px;
+    left: 370px;
+    border-radius: 0px;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+}
+
+.portfolio-title-box {
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #bdae82;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.portfolio-title-h2 {
+    margin: 0 auto;
+    height: 80px;
+    width: 232px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 0px;
+    background: #000;
+}
+
+.portfolio-btns { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 55px;
+    width: 100%;
+    top: 226px;
+    border-radius: 0px;
+    padding: 0 273px;
+    margin-top: 46px;
+}
+
+.btn-Winter, .btn-Summer, .btn-Spring {
+    margin: 0 auto;
+    height: 55px;
+    width: 220px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #BDAE82;
+    border-width: 2px;
+    border-color: #BDAE82;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #000;
+    
+}
+
+.btn-Autumn {
+    margin: 0 auto;
+    height: 55px;
+    width: 220px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #000;
+    border-width: 2px;
+    border-color: #BDAE82;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #BDAE82;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;/*перенос 3х фото на новую строку*/
+    gap: 25px 25px;/*интервалы по верт/гориз между фото*/
+    align-items: center;
+    padding-top: 74px;
+    height: 1145px;
+    width: 1400px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.photo {
+    height: 560px;
+    width: 450px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    text-align: center;
+}
+.photo-1 {
+    height: 536px;
+    width: 450px;
+}
+
+                                /* НОВАЯ СЕКЦИЯ V I D E O*/
+.video {
+    height: 945px;
+    width: 100%;
+    top: 2892px;
+    border-radius: 0px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.video-title {
+    margin: 0 auto;
+    height: 80px;
+    width: 700px;
+    left: 370px;
+    border-radius: 0px;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+}
+
+.video-title-box {
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #bdae82;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.video-title-h2 {
+    margin: 0 auto;
+    height: 80px;
+    width: 152px;
+    left: 0px;
+    top: 0px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 0px;
+    background: #000;    
+}
+
+.video-player {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 705px;
+    width: 1400px;
+    margin-top: 60px;
+    border-radius: 0px;
+}
+
+.btn-player {
+    position: absolute;
+    color: #FFFFFF;
+}
+/*                      НОВАЯ СЕКЦИЯ P R I C E              */
+
+.price {
+    height: 845px;
+    width: 1440px;
+    top: 3837px;
+    margin: 0 auto;
+    padding-top: 100px;
+    border-radius: 0px;
+
+
+}
+
+.price-title {
+    margin: 0px auto;
+    height: 80px;
+    width: 700px;
+    left: 370px;
+    border-radius: 0px;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+}
+
+
+.price-title-box {
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #bdae82;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.price-title-h2 {
+    margin: 0 auto;
+    height: 80px;
+    width: 152px;
+    left: 0px;
+    top: 0px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 0px;
+    background: #000;    
+}
+
+.price-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 505px;
+    width: 1400px;
+    padding-top: 60px;
+}
+
+.price-item {
+    text-align: center;
+    height: 509px;
+    width: 454px;
+    left: 20px;
+    top: 240px;
+    border: 2px solid #bdae82;
+}
+
+.price-item-name {
+    margin: 43px auto 20px auto;
+    text-align: center;
+    height: 56px;
+    width: 122px;
+    left: 164px;
+    top: 43px;
+    border-radius: nullpx;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.price-item-price {
+    margin: 0 auto;
+    height: 48px;
+    width: 69px;
+    left: 191px;
+    top: 119px;
+    border-radius: nullpx;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #BDAE82;
+}
+
+.price-item-descr {
+    margin: 20px auto 40px auto;
+    text-align: center;
+    height: 180px;
+    width: 364px;
+    left: 43.328px;
+    top: 187px;
+    line-height: 18.82px;
+    border-radius: 0px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+/* .price-string {
+    margin: 18.82px auto;
+
+} */
+
+.btn {
+    text-align: center;
+    margin: 0 auto 43px auto;
+    height: 55px;
+    width: 220px;
+    left: 115px;
+    top: 407px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    background-color:#BDAE82;
+    color: #000000;
+}
+/*                           НОВАЯ СЕКЦИЯ C O N T A C T  M E                             */  
+
+.contacts {
+    width: 100%;
+    height: 700px;
+    background: url("./assets/img/contacts.jpg");
+    background-size: auto 700px;
+    background-position: center center/cover no-repeat;
+    position: relative;
+}
+
+.contact-me {
+    position: absolute;
+    height: 445px;
+    width: 450px;
+    margin: 60px 0 0 950px; 
+} 
+
+.section-title {
+    height: 80px;
+    width: 450px;
+    left: 970px;
+    top: 60px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BDAE82;
+}
+
+.feed-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; /*выравниваем эл-ты в столбец*/
+    width: 450px;
+    
+}
+
+input {
+    height: 50px;
+    width: 450px;
+    left: 970px;
+    top: 180px;
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    border: 2px solid #BDAE82
+}
+
+::placeholder {
+    padding-left: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+textarea {
+    margin-bottom: 30px;
+    resize: none;/*пользователь не сможет изм.размер формы*/
+    height: 100px;
+    width: 450px;
+    left: 970px;
+    top: 320px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    border: 2px solid #BDAE82
+    
+}
+
+.btn-massage {
+    height: 55px;
+    width: 220px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    background: #bdae82;
+    color: #000;
+}
+/*                                      СЕКЦИЯ F O O T E R    */ 
+.footer {
+    height: 150px;
+    width: 1440px;
+    top: 5382px;
+    background-color: #000;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 1440px;
+    align-items: center;
+    text-align: center;
+}
+
+.year2022 {
+    display: flex;
+    justify-content: space-between;
+    width: 182px;
+    margin: 50px 0 50px 20px;
+}
+
+.rss {
+    width: 211px;
+    margin: 50px 0 50px 0;
+}
+
+.social { 
+    display: flex;
+    justify-content: space-between;
+    width: 188px;
+    margin: 50px 20px 50px 0;
+}
+
+.rss-link {
+    font-family: Inter;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    text-decoration: none;
+}
