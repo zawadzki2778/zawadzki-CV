@@ -41,10 +41,12 @@ body {
 header {
     padding: 5px 0;
 }
+
 .photo {
     size: 320px;
     padding: 3px 20px;
 }
+
 .personPhoto {
     width: 100%;
     border-radius: 50%;
@@ -110,7 +112,7 @@ h2 {
 .name_VZEP {
     font-weight: 400;
     font-size: 18px;
-    margin-top: 15px;
+    margin: 10px 5px 0 0;
 }
 
 .contact_list,
@@ -190,7 +192,7 @@ a {
 }
 
 a:hover {
-    color: rgb(200, 0, 0);
+    color: rgb(255, 230, 0);
 }
 
 /* footer {
