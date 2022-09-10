@@ -93,6 +93,16 @@ h2 {
     padding-left: 20px;
 }
 
+.course_flex {
+    display: flex;
+    align-items: center;
+}
+
+.sertificat {
+    color:rgb(20, 58, 110);
+    margin-left: 50px;
+}
+
 .data_course,
 .data_university,
 .data_college,
