@@ -23,7 +23,7 @@ body {
     min-height: auto;
     width: 1024px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color:whitesmoke
 }
 
 .section_left {
@@ -50,6 +50,7 @@ header {
 .personPhoto {
     width: 100%;
     border-radius: 50%;
+    margin-top: 10px;
 }
 
 h1 {
@@ -58,12 +59,9 @@ h1 {
     font-size: 46px;
     color: rgb(20, 58, 110);
 }
-
-h2 {
-    padding-left: 20px;
-    font-weight: 600;
-    color: rgb(20, 58, 110);
-}
+ h2 {
+    color:rgb(20, 58, 110)
+ }
 
 .profession {
     font-weight: 400;
@@ -71,16 +69,15 @@ h2 {
     font-weight: 600;
 }
 
-.education,
+/* .education,
 .experience {
     display: flex;
     align-items: center;
-    text-align: center;
     margin-top: 35px;
     text-align: left;
     padding-left: 20px;
     font-weight: 600;
-}
+} */
 
 .course,
 .university,
@@ -98,8 +95,8 @@ h2 {
     align-items: center;
 }
 
-.sertificat {
-    color:rgb(20, 58, 110);
+.sertificate {
+    color: tomato;
     margin-left: 50px;
 }
 
@@ -124,7 +121,75 @@ h2 {
     font-size: 18px;
     margin: 10px 5px 0 0;
 }
-
+/*https://frontblog.ru/verstka-zagolovoka-s-liniyami-po-bokam-na-css.html*/
+.title {
+    /* Чтобы спрятать часть линий, которые 
+    ** будут вылазить за пределы блока */
+    overflow: hidden;
+    /* Выравнивание заголовка по центру, 
+    ** можно использовать left, right */
+    text-align: left;
+    /* Тут можно добавить другие стили для заголовка */
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.title span {
+    /* Стили тега обертки для заголовков 
+    ** в несколько строк */
+    display: inline-block;
+    vertical-align: middle;
+    color: whitesmoke;
+}
+.title_span {
+    display: inline-block;
+    vertical-align: middle;
+    color:rgb(20, 58, 110);
+    font-weight: 600;
+}
+/* .title:before, */
+.title:after {
+    /* Обязательно указываем пустое свойство content, 
+    ** иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    /* Указываем что наши линии будут строчно-блочные и 
+    ** выравнивание по высоте - по центру */
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 100%;
+    height: 2.5px;
+    /* Добавляем цвет для линии */
+    background-color: whitesmoke;
+    /* Добавляем пседоэлемантам возможность изменить 
+    ** позицию линии, для создания отступов от текста */
+    position: relative;
+}
+.title_pro:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 2.5px;
+    background-color:rgb(20, 58, 110);
+    position: relative;
+}
+/* .title:before { */
+    /* Смещаем левую линию на 100% влево, чтобы линия 
+    ** встала рядом с текстом слева */
+    /* margin-left: -100%; */
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    /* left: -14px;
+} */
+.title:after {
+    /* Смещаем правую линию на 100% вправо, чтобы 
+    ** линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -14px;
+}
+/* -------------------------------------------------------------*/
 .contact_list,
 .skills_list {
     margin-top: 10px;
@@ -202,7 +267,7 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 230, 0);
+    color: #00cf00;
 }
 
 /* footer {
