@@ -134,6 +134,7 @@ h1 {
     margin-left: 10px;
     margin-top: 20px;
 }
+
 .title span {
     /* Стили тега обертки для заголовков 
     ** в несколько строк */
@@ -141,6 +142,7 @@ h1 {
     vertical-align: middle;
     color: whitesmoke;
 }
+
 .title_span {
     display: inline-block;
     vertical-align: middle;
@@ -166,6 +168,7 @@ h1 {
     ** позицию линии, для создания отступов от текста */
     position: relative;
 }
+
 .title_pro:after {
     content: "";
     display: inline-block;
