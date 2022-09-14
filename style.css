@@ -69,8 +69,8 @@ h1 {
     font-weight: 600;
 }
 
-/* .education,
-.experience {
+/*.education,
+  .experience {
     display: flex;
     align-items: center;
     margin-top: 35px;
@@ -78,7 +78,7 @@ h1 {
     padding-left: 20px;
     font-weight: 600;
 } */
-
+.about,
 .course,
 .university,
 .college,
@@ -110,7 +110,7 @@ h1 {
     font-size: 20px;
     color: rgb(20, 58, 110);
 }
-
+.name_about,
 .name_course,
 .name_university,
 .name_college,
@@ -119,8 +119,12 @@ h1 {
 .name_VZEP {
     font-weight: 400;
     font-size: 18px;
-    margin: 10px 5px 0 0;
+    margin: 10px 15px 0 0;
 }
+.name_about {
+    text-indent: 30px; /* Отступ первой строки в пикселах(красная строка)*/
+}
+
 /*https://frontblog.ru/verstka-zagolovoka-s-liniyami-po-bokam-na-css.html*/
 .title {
     /* Чтобы спрятать часть линий, которые 
