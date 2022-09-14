@@ -15,12 +15,8 @@ body {
 header {
     display: flex;
     padding: 5px 0;
-    align-items: center;
-}
-
-.my_info {
-    margin: 0 10px 0 70px;
-    width: 100%;
+    /* align-items: center; */
+    justify-content: space-around;
 }
 
 .container {
@@ -78,15 +74,6 @@ h1 {
     font-weight: 600;
 }
 
-/*.education,
-  .experience {
-    display: flex;
-    align-items: center;
-    margin-top: 35px;
-    text-align: left;
-    padding-left: 20px;
-    font-weight: 600;
-} */
 .about,
 .course,
 .university,
@@ -107,6 +94,7 @@ h1 {
 .sertificate {
     color: tomato;
     margin-left: 50px;
+    font-weight: bold;
 }
 
 .data_course,
@@ -271,19 +259,13 @@ h1 {
 .my_russian,
 .my_english,
 .my_polish {
-    margin-left: 10px;
-    margin-top: 8px;
-    padding-bottom: 10px;
+    margin: 8px 0 10px 10px;
 }
 
 a {
     color: whitesmoke;
     text-decoration: none;
     transition: all .3s linear;
-}
-
-a:hover {
-    color: #00cf00;
 }
 
 /* footer {
@@ -315,12 +297,10 @@ a:hover {
 } */
 
 .dropbtn {
-  /* background-color: #04AA6D; */
-  /* color: white; */
-  padding: 8px;
-  font-size: 16px;
-  /* border: 1px solid black; */
-  /* border-radius: 10px; */
+  padding: 6px;
+  font-weight: bold;
+  color: tomato;
+  cursor: pointer;
 }
 
 .dropdown {
@@ -331,21 +311,30 @@ a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
+  background-color: rgb(20, 58, 110);
+  border-radius: 10%;
+  min-width: 80px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
+  color: whitesmoke;
+  padding: 8px 10px;
   display: block;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+ a:hover {
+    color: #00cf00;
+ }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+.dropdown:hover .dropbtn {
+    color: #00cf00;
+    transition: all .4s linear;
+}
