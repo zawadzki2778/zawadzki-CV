@@ -54,6 +54,7 @@ header {
     border-radius: 50%;
     margin-top: 10px;
 }
+
 .my_info {
     text-align: center;
     margin-right: 50px;
@@ -74,13 +75,13 @@ h2 {
     margin-left: 120px; */
 }
 
- h4 {
+h4 {
     font-weight: normal;
     /* text-align: left;
     margin-left: 200px; */
     color: rgb(20, 58, 110);
     margin-top: 5px;
- }
+}
 
 .profession {
     font-weight: 400;
@@ -150,7 +151,7 @@ h2 {
     /* Тут можно добавить другие стили для заголовка */
     font-size: 28px;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .title span {
@@ -315,7 +316,7 @@ a {
     font-size: 20px;
     color: whitesmoke;
 } */
-
+/* стили для всплывающего меню при переключении языков */
 .dropbtn {
     padding: 6px;
     font-weight: bold;
@@ -365,3 +366,16 @@ a:hover {
     color: #00cf00;
     transition: all .4s linear;
 }
+/* стили для попапов, появляющихся при клике на сертификат */
+a img {
+    display: none;
+    position: absolute;
+    z-index: 1; /* без него выстала полоса из title:after */
+}
+
+a:hover img {
+    display: block;
+    width: 500px;
+    transition: 0.7s;
+}
+
