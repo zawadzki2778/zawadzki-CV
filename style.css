@@ -15,8 +15,7 @@ body {
 header {
     display: flex;
     padding: 5px 0;
-    /* align-items: center; */
-    justify-content: space-around;
+    flex-direction: column-reverse;
 }
 
 .container {
@@ -30,7 +29,7 @@ header {
     min-height: auto;
     width: 1024px;
     margin: 0 auto;
-    background-color:whitesmoke
+    background-color: whitesmoke
 }
 
 .section_left {
@@ -55,17 +54,32 @@ header {
     border-radius: 50%;
     margin-top: 10px;
 }
-
+.my_info {
+    text-align: center;
+    margin-right: 50px;
+}
 
 h1 {
-    margin-top: 30px;
+    margin-top: 20px;
+    /* margin-left: 50px;
+    text-align: left; */
     font-weight: 700;
     font-size: 46px;
     color: rgb(20, 58, 110);
 }
 
- h2 {
-    color:rgb(20, 58, 110)
+h2 {
+    color: rgb(20, 58, 110);
+    /* text-align: left;
+    margin-left: 120px; */
+}
+
+ h4 {
+    font-weight: normal;
+    /* text-align: left;
+    margin-left: 200px; */
+    color: rgb(20, 58, 110);
+    margin-top: 5px;
  }
 
 .profession {
@@ -107,6 +121,7 @@ h1 {
     font-size: 20px;
     color: rgb(20, 58, 110);
 }
+
 .name_about,
 .name_course,
 .name_university,
@@ -118,8 +133,10 @@ h1 {
     font-size: 18px;
     margin: 10px 15px 0 0;
 }
+
 .name_about {
-    text-indent: 30px; /* Отступ первой строки в пикселах(красная строка)*/
+    text-indent: 20px;
+    /* Отступ первой строки в пикселах(красная строка)*/
 }
 
 /*https://frontblog.ru/verstka-zagolovoka-s-liniyami-po-bokam-na-css.html*/
@@ -147,9 +164,10 @@ h1 {
 .title_span {
     display: inline-block;
     vertical-align: middle;
-    color:rgb(20, 58, 110);
+    color: rgb(20, 58, 110);
     font-weight: 600;
 }
+
 /* .title:before, */
 .title:after {
     /* Обязательно указываем пустое свойство content, 
@@ -176,15 +194,16 @@ h1 {
     vertical-align: middle;
     width: 100%;
     height: 2.5px;
-    background-color:rgb(20, 58, 110);
+    background-color: rgb(20, 58, 110);
     position: relative;
 }
+
 /* .title:before { */
-    /* Смещаем левую линию на 100% влево, чтобы линия 
+/* Смещаем левую линию на 100% влево, чтобы линия 
     ** встала рядом с текстом слева */
-    /* margin-left: -100%; */
-    /* Указываем в пикселях отступ линии от текста заголовка */
-    /* left: -14px;
+/* margin-left: -100%; */
+/* Указываем в пикселях отступ линии от текста заголовка */
+/* left: -14px;
 } */
 .title:after {
     /* Смещаем правую линию на 100% вправо, чтобы 
@@ -193,6 +212,7 @@ h1 {
     /* Указываем в пикселях отступ линии от текста заголовка */
     right: -14px;
 }
+
 /* -------------------------------------------------------------*/
 .contact_list,
 .skills_list {
@@ -297,41 +317,48 @@ a {
 } */
 
 .dropbtn {
-  padding: 6px;
-  font-weight: bold;
-  color: tomato;
-  cursor: pointer;
+    padding: 6px;
+    font-weight: bold;
+    color: tomato;
+    cursor: pointer;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: absolute;
+    /* было relative */
+    display: inline-block;
+    /* бобавил */
+    align-self: flex-end;
+    margin-right: 8px;
+    top: 5px;
+    width: 80px;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgb(20, 58, 110);
-  border-radius: 10%;
-  min-width: 80px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: rgb(20, 58, 110);
+    border-radius: 10%;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: whitesmoke;
-  padding: 8px 10px;
-  display: block;
-  font-weight: bold;
-  font-size: 14px;
+    color: whitesmoke;
+    padding: 8px 10px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
 }
 
- a:hover {
+a:hover {
     color: #00cf00;
- }
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
+    text-align: center;
 }
 
 .dropdown:hover .dropbtn {
