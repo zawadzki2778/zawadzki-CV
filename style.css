@@ -375,7 +375,5 @@ a img {
 
 a:hover img {
     display: block;
-    width: 500px;
     transition: 0.7s;
 }
-
