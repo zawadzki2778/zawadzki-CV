@@ -30,7 +30,6 @@ header {
     width: 1024px;
     margin: 0 auto;
     background-color: whitesmoke
-    
 }
 
 .section_left {
@@ -141,6 +140,25 @@ h4 {
 .name_about {
     text-indent: 20px;
     /* Отступ первой строки в пикселах(красная строка)*/
+}
+
+.phone,
+.email,
+.telegram,
+.whatsapp,
+.skype,
+.github,
+.html,
+.css,
+.js,
+.vue,
+.github1,
+.linkedin,
+.figma,
+.russian,
+.english,
+.polish {
+    margin-top: 5px;
 }
 
 /*https://frontblog.ru/verstka-zagolovoka-s-liniyami-po-bokam-na-css.html*/
@@ -369,11 +387,13 @@ a:hover {
     color: #00cf00;
     transition: all .4s linear;
 }
+
 /* стили для попапов, появляющихся при клике на сертификат */
 a img {
     display: none;
     position: absolute;
-    z-index: 1; /* без него выстала полоса из title:after */
+    z-index: 1;
+    /* без него выстала полоса из title:after */
 }
 
 a:hover img {
