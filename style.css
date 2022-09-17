@@ -142,25 +142,6 @@ h4 {
     /* Отступ первой строки в пикселах(красная строка)*/
 }
 
-.phone,
-.email,
-.telegram,
-.whatsapp,
-.skype,
-.github,
-.html,
-.css,
-.js,
-.vue,
-.github1,
-.linkedin,
-.figma,
-.russian,
-.english,
-.polish {
-    margin-top: 5px;
-}
-
 /*https://frontblog.ru/verstka-zagolovoka-s-liniyami-po-bokam-na-css.html*/
 .title {
     /* Чтобы спрятать часть линий, которые 
@@ -283,6 +264,7 @@ h4 {
     color: whitesmoke;
     text-decoration: none;
     transition: all .4s linear;
+    margin-top: 5px;
 }
 
 .my_phone_link,
